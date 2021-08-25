@@ -1,0 +1,8 @@
+{
+    "Blog": true,
+    "ShoppingCart": true,
+    "Cart": true,
+    "News": true,
+    "Product": true,
+    "Promo": true
+}
