@@ -2,23 +2,23 @@
 
 After you clone this project, do the following:
 
-
-1. go into the project <br>
+``` bash
+1. go into the project 
     cd laravel-modules
 
-2. install composer dependencies <br>
+2. install composer dependencies 
     composer update
 
-3. generate a key for your application <br>
+3. generate a key for your application 
     php artisan key:generate
 
 4. create a .env file
     cp .env.example .env
 
-5. create a local MySQL database (make sure you have MySQL up and running) <br>
+5. create a local MySQL database (make sure you have MySQL up and running) 
     mysql -u root -p
     
-    > create database chat_db;<br>
+    > create database chat_db;
     > exit;
 
 6. add the database connection config to your .env file
@@ -27,13 +27,13 @@ After you clone this project, do the following:
     DB_USERNAME=root
     DB_PASSWORD=
 
-7. run the migration files to generate the schema <br>
+7. run the migration files to generate the schema 
    php artisan migrate
 
-8. install npm dependencies <br>
+8. install npm dependencies 
    npm install && npm run dev
 
-9. php artisan serve <br>
+9. php artisan serve 
    Visit http://127.0.0.1:8000 your browser
-   
+````   
 ![Screenshot](doc/laravel-modules.jpg)   
