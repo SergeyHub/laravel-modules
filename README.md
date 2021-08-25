@@ -15,7 +15,7 @@ After you clone this project, do the following:
 4. create a .env file
     cp .env.example .env
 
-5. create a local MySQL database (make sure you have MySQL up and running)
+5. create a local MySQL database (make sure you have MySQL up and running) <br>
     mysql -u root -p
     
     > create database chat_db;<br>
